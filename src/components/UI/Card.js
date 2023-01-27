@@ -7,9 +7,9 @@ import "./Card.css";
 // bez da mi poremeti sve stilove
 // children kao props ne mora explicitno da bude prosledjen komponenti, to je built in props
 
-function Card({ children, className }) {
+const Card = ({ children, className }) => {
   const classes = "card " + className;
   return <div className={classes}>{children}</div>;
-}
+};
 
 export default Card;
