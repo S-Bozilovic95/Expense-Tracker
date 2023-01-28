@@ -22,3 +22,9 @@
   font-weight: bold;
   border-radius: 6px;
 }
+
+@media (max-width: 580px) {
+  .expenses-filter__control {
+    flex-direction: column;
+  }
+}
